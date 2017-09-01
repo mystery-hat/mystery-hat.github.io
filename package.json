@@ -2,177 +2,168 @@
   "_args": [
     [
       {
-        "raw": "bootstrap@4.0.0-alpha.6",
+        "raw": "jquery@>=1.9.1",
         "scope": null,
-        "escapedName": "bootstrap",
-        "name": "bootstrap",
-        "rawSpec": "4.0.0-alpha.6",
-        "spec": "4.0.0-alpha.6",
-        "type": "version"
+        "escapedName": "jquery",
+        "name": "jquery",
+        "rawSpec": ">=1.9.1",
+        "spec": ">=1.9.1",
+        "type": "range"
       },
-      "C:\\Users\\Abhinav Panwar\\Documents\\Coursera\\Bootstrap4\\Wings-Academy"
+      "C:\\Users\\Abhinav Panwar\\Documents\\Coursera\\Bootstrap4\\Wings-Academy\\node_modules\\bootstrap"
     ]
   ],
-  "_from": "bootstrap@4.0.0-alpha.6",
-  "_id": "bootstrap@4.0.0-alpha.6",
+  "_from": "jquery@>=1.9.1",
+  "_id": "jquery@3.2.1",
   "_inCache": true,
-  "_location": "/bootstrap",
-  "_nodeVersion": "5.10.0",
+  "_location": "/jquery",
+  "_nodeVersion": "7.7.3",
   "_npmOperationalInternal": {
     "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/bootstrap-4.0.0-alpha.6.tgz_1483723623729_0.6719418407883495"
+    "tmp": "tmp/jquery-3.2.1.tgz_1490036530067_0.19497186387889087"
   },
   "_npmUser": {
-    "name": "twbs",
-    "email": "getbootstrap@gmail.com"
+    "name": "timmywil",
+    "email": "4timmywil@gmail.com"
   },
-  "_npmVersion": "3.8.3",
+  "_npmVersion": "4.4.4",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "bootstrap@4.0.0-alpha.6",
+    "raw": "jquery@>=1.9.1",
     "scope": null,
-    "escapedName": "bootstrap",
-    "name": "bootstrap",
-    "rawSpec": "4.0.0-alpha.6",
-    "spec": "4.0.0-alpha.6",
-    "type": "version"
+    "escapedName": "jquery",
+    "name": "jquery",
+    "rawSpec": ">=1.9.1",
+    "spec": ">=1.9.1",
+    "type": "range"
   },
   "_requiredBy": [
-    "#USER",
-    "/"
+    "/bootstrap"
   ],
-  "_resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-alpha.6.tgz",
-  "_shasum": "4f54dd33ac0deac3b28407bc2df7ec608869c9c8",
+  "_resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
+  "_shasum": "5c4d9de652af6cd0a770154a631bba12b015c787",
   "_shrinkwrap": null,
-  "_spec": "bootstrap@4.0.0-alpha.6",
-  "_where": "C:\\Users\\Abhinav Panwar\\Documents\\Coursera\\Bootstrap4\\Wings-Academy",
+  "_spec": "jquery@>=1.9.1",
+  "_where": "C:\\Users\\Abhinav Panwar\\Documents\\Coursera\\Bootstrap4\\Wings-Academy\\node_modules\\bootstrap",
   "author": {
-    "name": "The Bootstrap Authors",
-    "url": "https://github.com/twbs/bootstrap/graphs/contributors"
+    "name": "JS Foundation and other contributors",
+    "url": "https://github.com/jquery/jquery/blob/3.2.1/AUTHORS.txt"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap/issues"
+    "url": "https://github.com/jquery/jquery/issues"
   },
-  "contributors": [
-    {
-      "name": "Twitter, Inc."
-    }
-  ],
-  "dependencies": {
-    "jquery": ">=1.9.1",
-    "tether": "^1.4.0"
+  "commitplease": {
+    "nohook": true,
+    "components": [
+      "Docs",
+      "Tests",
+      "Build",
+      "Support",
+      "Release",
+      "Core",
+      "Ajax",
+      "Attributes",
+      "Callbacks",
+      "CSS",
+      "Data",
+      "Deferred",
+      "Deprecated",
+      "Dimensions",
+      "Effects",
+      "Event",
+      "Manipulation",
+      "Offset",
+      "Queue",
+      "Selector",
+      "Serialize",
+      "Traversing",
+      "Wrap"
+    ],
+    "markerPattern": "^((clos|fix|resolv)(e[sd]|ing))|^(refs?)",
+    "ticketPattern": "^((Closes|Fixes) ([a-zA-Z]{2,}-)[0-9]+)|^(Refs? [^#])"
   },
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "dependencies": {},
+  "description": "JavaScript library for DOM operations",
   "devDependencies": {
-    "autoprefixer": "^6.6.1",
-    "babel-eslint": "^7.1.1",
-    "babel-plugin-transform-es2015-modules-strip": "^0.1.0",
-    "babel-preset-es2015": "^6.18.0",
-    "clean-css": "^3.4.23",
-    "eslint": "^3.12.2",
-    "grunt": "^1.0.1",
-    "grunt-babel": "^6.0.0",
-    "grunt-build-control": "^0.7.1",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-compress": "^1.3.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-qunit": "^1.2.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-exec": "^1.0.1",
-    "grunt-html": "^8.1.0",
-    "grunt-jekyll": "^0.4.4",
-    "grunt-saucelabs": "^9.0.0",
-    "grunt-stamp": "^0.3.0",
-    "htmlhint": "^0.9.13",
-    "is-travis": "^1.0.0",
-    "load-grunt-tasks": "^3.5.2",
-    "node-sass": "^4.1.1",
-    "postcss-cli": "^2.6.0",
-    "postcss-flexbugs-fixes": "^2.1.0",
-    "shelljs": "^0.7.5",
-    "shx": "^0.2.1",
-    "time-grunt": "^1.4.0",
-    "uglify-js": "^2.7.5"
+    "babel-preset-es2015": "6.6.0",
+    "commitplease": "2.6.1",
+    "core-js": "2.2.2",
+    "cross-spawn": "2.2.3",
+    "eslint-config-jquery": "1.0.0",
+    "grunt": "1.0.1",
+    "grunt-babel": "6.0.0",
+    "grunt-cli": "1.2.0",
+    "grunt-compare-size": "0.4.2",
+    "grunt-contrib-uglify": "1.0.1",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-eslint": "19.0.0",
+    "grunt-git-authors": "3.2.0",
+    "grunt-jsonlint": "1.0.7",
+    "grunt-newer": "1.2.0",
+    "grunt-npmcopy": "0.1.0",
+    "gzip-js": "0.3.2",
+    "husky": "0.11.4",
+    "insight": "0.8.1",
+    "jsdom": "5.6.1",
+    "load-grunt-tasks": "3.5.0",
+    "native-promise-only": "0.8.1",
+    "promises-aplus-tests": "2.1.2",
+    "q": "1.4.1",
+    "qunit-assert-step": "1.0.3",
+    "qunitjs": "1.23.1",
+    "requirejs": "2.2.0",
+    "sinon": "1.17.3",
+    "sizzle": "2.3.3",
+    "strip-json-comments": "2.0.1",
+    "testswarm": "1.1.0"
   },
   "directories": {},
   "dist": {
-    "shasum": "4f54dd33ac0deac3b28407bc2df7ec608869c9c8",
-    "tarball": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0-alpha.6.tgz"
+    "shasum": "5c4d9de652af6cd0a770154a631bba12b015c787",
+    "tarball": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz"
   },
-  "engines": {
-    "node": ">=4"
-  },
-  "files": [
-    "dist",
-    "grunt",
-    "js/**/*.js",
-    "scss/**/*.scss",
-    "Gruntfile.js",
-    "LICENSE"
-  ],
-  "gitHead": "65ffb1c3b6e94440812a2e228cb8e8be512652ec",
-  "homepage": "https://getbootstrap.com",
-  "jspm": {
-    "main": "js/bootstrap",
-    "directories": {
-      "lib": "dist"
-    },
-    "shim": {
-      "js/bootstrap": {
-        "deps": [
-          "jquery"
-        ],
-        "exports": "$"
-      }
-    },
-    "dependencies": {
-      "jquery": "3"
-    }
-  },
+  "gitHead": "77d2a51d0520d2ee44173afdf4e40a9201f5964e",
+  "homepage": "https://jquery.com",
   "keywords": [
-    "css",
-    "sass",
-    "mobile-first",
-    "responsive",
-    "front-end",
-    "framework",
-    "web"
+    "jquery",
+    "javascript",
+    "browser",
+    "library"
   ],
   "license": "MIT",
-  "main": "dist/js/bootstrap",
+  "main": "dist/jquery.js",
   "maintainers": [
     {
-      "name": "twbs",
-      "email": "bigj95t+bsnpm@gmail.com"
+      "name": "dmethvin",
+      "email": "dave.methvin@gmail.com"
+    },
+    {
+      "name": "mgol",
+      "email": "m.goleb@gmail.com"
+    },
+    {
+      "name": "scott.gonzalez",
+      "email": "scott.gonzalez@gmail.com"
+    },
+    {
+      "name": "timmywil",
+      "email": "4timmywil@gmail.com"
     }
   ],
-  "name": "bootstrap",
+  "name": "jquery",
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/bootstrap.git"
+    "url": "git+https://github.com/jquery/jquery.git"
   },
-  "sass": "scss/bootstrap.scss",
   "scripts": {
-    "change-version": "node grunt/change-version.js",
-    "clean-css": "cleancss --skip-advanced --source-map --output dist/css/bootstrap.min.css dist/css/bootstrap.css && cleancss --skip-advanced --source-map --output dist/css/bootstrap-grid.min.css dist/css/bootstrap-grid.css && cleancss --skip-advanced --source-map --output dist/css/bootstrap-reboot.min.css dist/css/bootstrap-reboot.css",
-    "clean-css-docs": "cleancss --skip-advanced --source-map --output docs/assets/css/docs.min.css docs/assets/css/docs.min.css",
-    "eslint": "eslint --ignore-path .eslintignore js && eslint --config js/tests/.eslintrc.json --env node grunt Gruntfile.js && eslint --config js/tests/.eslintrc.json docs/assets/js/src docs/assets/js/ie-emulation-modes-warning.js docs/assets/js/ie10-viewport-bug-workaround.js",
-    "htmlhint": "htmlhint --config docs/.htmlhintrc _gh_pages/",
-    "postcss": "postcss --config grunt/postcss.js --replace dist/css/*.css",
-    "postcss-docs": "postcss --config grunt/postcss.js --no-map --replace docs/assets/css/docs.min.css && postcss --config grunt/postcss.js --no-map --replace docs/examples/**/*.css",
-    "sass": "node-sass --output-style expanded --source-map true --precision 6 scss/bootstrap.scss dist/css/bootstrap.css && node-sass --output-style expanded --source-map true --precision 6 scss/bootstrap-grid.scss dist/css/bootstrap-grid.css && node-sass --output-style expanded --source-map true --precision 6 scss/bootstrap-reboot.scss dist/css/bootstrap-reboot.css",
-    "sass-docs": "node-sass --output-style expanded --source-map true --precision 6 docs/assets/scss/docs.scss docs/assets/css/docs.min.css",
-    "scss-lint": "bundle exec scss-lint --config scss/.scss-lint.yml --exclude scss/_normalize.scss scss/*.scss",
-    "scss-lint-docs": "bundle exec scss-lint --config scss/.scss-lint.yml --exclude docs/assets/scss/docs.scss docs/assets/scss/*.scss",
-    "test": "npm run eslint && grunt test",
-    "uglify": "uglifyjs --compress warnings=false --mangle --comments '/^!/' --output dist/js/bootstrap.min.js dist/js/bootstrap.js",
-    "uglify-docs": "uglifyjs --compress warnings=false --mangle --comments '/^!/' --output docs/assets/js/docs.min.js docs/assets/js/vendor/*.js docs/assets/js/src/application.js",
-    "update-shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json ./grunt/npm-shrinkwrap.json"
+    "build": "npm install && grunt",
+    "commitmsg": "node node_modules/commitplease",
+    "precommit": "grunt lint:newer",
+    "start": "grunt watch",
+    "test": "grunt && grunt test:slow"
   },
-  "style": "dist/css/bootstrap.css",
-  "version": "4.0.0-alpha.6"
+  "title": "jQuery",
+  "version": "3.2.1"
 }
